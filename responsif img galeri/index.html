@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>galeri responsif</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #abab;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        .galeri {
+            width: 80%;
+            margin: auto;
+            border: 10px solid white;
+            list-style: none;
+            box-shadow: 2px 2px 2px black;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-gap: 5px;
+        }
+    
+    </style>
+
+</head>
+<body>
+    
+    <h2>My Galeri</h2>
+    <ul class="galeri">
+        <li><img src="img/m1.jpg" alt="m1"></li>
+        <li><img src="img/m2.jpg" alt="m2"></li>
+        <li><img src="img/m3.jpg" alt="m3"></li>
+        <li><img src="img/m4.jpg" alt="m4"></li>
+        <li><img src="img/m5.jpg" alt="m5"></li>
+        <li><img src="img/m4.jpg" alt="m4"></li>
+        <li><img src="img/m7.jpg" alt="m7"></li>
+        <li><img src="img/m8.jpg" alt="m8"></li>
+        <li><img src="img/m7.jpg" alt="m7"></li>
+        <li><img src="img/m10.jpg" alt="m10"></li>
+    </ul>
+
+
+</body>
+</html>
